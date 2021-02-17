@@ -1,9 +1,9 @@
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
+1. set args
+2. break line
+3. s (step-in)
+4. continue
+5. print(выражение/переменная)
+6. display переменная
+7. info locals
+8. quit
+9. 

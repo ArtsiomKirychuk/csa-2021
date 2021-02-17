@@ -1,6 +1,18 @@
 #include "ll_cycle.h"
 
 bool ll_has_cycle(node *head) {
-    /* Ваш код должен быть написан только внутри этой функции */
+    if (!head) return false;
+    node *hare = head;
+    node *turtle = head;
+    while(hare)
+    {
+    	hare = hare->next;
+    	if(!hare) return false;
+    	hare = hare-> next;
+    	if(!hare) return false;
+    	turtle = turtle-> next;
+    	if(turtle==hare) return true;
+    	
+    }
     return true;
 }

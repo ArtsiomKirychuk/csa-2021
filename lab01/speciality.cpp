@@ -1,10 +1,10 @@
 #include <iostream>
 
 /* Изменяйте только эти 4 переменные */
-constexpr int V0 = 0;
-constexpr int V1 = -1;
-constexpr int V2 = 0;
-constexpr int V3 = 0;
+constexpr int V0 = -1;
+constexpr int V1 = 8;
+constexpr int V2 = -1;
+constexpr int V3 = -1;
 
 /*
  * Точка входа с++ программы. Что передается через аргументы?
@@ -15,7 +15,7 @@ int main(int argc, char** argv) {
      */
     std::cout << "Специальности ФКСИС" << std::endl;
     std::cout << "===================" << std::endl;
-
+	
     /* for loop */
     for (int a = 0; a < V0 + V2; a++)
     {
